@@ -1,0 +1,103 @@
+/* Global styles */
+body {
+    font-family: 'Helvetica', Arial, sans-serif; /* Example of a stylish font */
+    background: linear-gradient(to bottom right, #034378, #87CEEB); /* Blue gradient background */
+    color: #ffffff; /* White text color */
+    margin: 0; /* Remove default body margin */
+    padding: 0; /* Remove default body padding */
+}
+
+/* Stylish appealing blue header */
+.jumbotron {
+    background-image: linear-gradient(to bottom right, #007bff, #0056b3); /* Stylish blue gradient */
+    color: #ffffff; /* White text color */
+    padding: 4rem 2rem;
+    margin-bottom: 0;
+}
+
+.jumbotron h1 {
+    font-size: 3.5rem;
+}
+
+.jumbotron p {
+    font-size: 1.5rem;
+}
+
+/* Styling for portfolio section */
+#portfolio {
+    padding: 4rem 0;
+    color: #000000; /* Black text color */
+}
+
+#portfolio img {
+    margin-bottom: 1rem;
+}
+
+/* Contact form styling */
+#contact {
+    padding: 4rem 0;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+}
+
+#contact h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    color: #333;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+label {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #555;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 1rem;
+    font-size: 1rem;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 150px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Example: Footer styling */
+footer {
+    text-align: center;
+    padding: 1rem 0;
+}

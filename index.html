@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Marketing Agency</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Social Boost</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="jumbotron">
+    <div class="container text-center">
+        <h1>Welcome to our Social Media Marketing Agency</h1>
+        <p class="lead">We help businesses grow their online presence through effective social media strategies.</p>
+    </div>
+</div>
+
+<div id="services" class="container">
+    <h2 class="text-center mb-4">Our Services</h2>
+    <div class="row">
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="IMG_3454.JPG" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Social Media Management</h5>
+                    <p class="card-text">We manage your social media profiles to enhance your brand image.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="IMG_3455.JPG" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Content Creation</h5>
+                    <p class="card-text">Compelling content creation to engage your audience.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="IMG_3458.JPG" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Paid Advertising</h5>
+                    <p class="card-text">Optimized paid advertising campaigns to drive traffic and leads.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="portfolio" class="bg-light py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Our Portfolio</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <img src="IMG_3459.JPG" class="img-fluid rounded" alt="...">
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="IMG_3460.JPG" class="img-fluid rounded" alt="...">
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="IMG_3461.JPG" class="img-fluid rounded" alt="...">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="contact" class="container">
+    <h2 class="text-center mb-4">Contact Us</h2>
+    <div class="row">
+        <div class="col-md-6 mx-auto">
+            <form id="contactForm" method="post" action="send_email.php"> <!-- Replace action with your backend script URL -->
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" name="message" rows="5" placeholder="Enter your message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<footer class="py-4 bg-dark text-white">
+    <div class="container text-center">
+        &copy; 2024 Social Media Agency.All rights reserved. <p>Made by Prince</p>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
